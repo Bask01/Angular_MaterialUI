@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Student } from './myClasses/student';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'thirdApp2';
+
+
+  bio:Student = {
+    sid: 991618972, 
+    sname: 'Kubra B',
+    slogin: 'bask',
+    scampus:'Trafalgar'
+  }
 }
